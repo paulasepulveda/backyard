@@ -12,7 +12,7 @@
 }
 
 .container {
-	width: 960px;
+	width: 1000px;
 	padding-left: 14px; 
 	padding-right: 14px;
 	margin: 0px auto;
@@ -97,23 +97,20 @@
 	width: 100%;
 }
 
-@media only screen and (max-width: 320px) { [class*="col-"] {
+@media only screen and (min-width:535px) and (max-width:824px) { [class*="col-"] {
         width: 100%;
     }
-}
+    form {
+    	width:100%;
+    }
+    .col-6 {
+    	width: 100%;
+    }
+} 
 
-@media only screen and (max-width: 400px) { [class*="col-"] {
-        width: 100%;
-    }
-}
-@media only screen and (max-width: 667px) { [class*="col-"] {
-        width: 100%;
-    }
-}
 
-@media only screen and (max-width: 1200px) { [class*="col-"] {
-        width: 100%;
-    }
-}
+
+
+
 
 
